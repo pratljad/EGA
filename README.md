@@ -1,2 +1,0 @@
-# EGA
-Extended Google Appointments
