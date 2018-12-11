@@ -48,7 +48,7 @@ public class Backup {
 	//Get all backups
 	@GET
 	  @Path("/")
-	  @Produces({ MediaType.TEXT_HTML, MediaType.APPLICATION_JSON })
+	  //@Produces({ MediaType.TEXT_HTML, MediaType.APPLICATION_JSON })
 	  public Response GetCalendarBackups() {  
 		  //get from db
 		  return Response.status(200).entity("sick").build(); 

@@ -14,7 +14,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        Button btn_doBackup = (Button) findViewById(R.id.btn_statistics);
+        Button btn_doBackup = (Button) findViewById(R.id.btn_doBackup);
         btn_doBackup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
