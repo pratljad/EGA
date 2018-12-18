@@ -34,6 +34,7 @@ public class LoginGoogleActivity extends AppCompatActivity implements
                 .requestEmail()
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+
         SignInButton signInButton = findViewById(R.id.sign_in_button);
         signInButton.setSize(SignInButton.SIZE_STANDARD);
         signInButton.setColorScheme(SignInButton.COLOR_LIGHT);
@@ -44,12 +45,8 @@ public class LoginGoogleActivity extends AppCompatActivity implements
     public void onStart() {
         super.onStart();
 
-        // [START on_start_sign_in]
-        // Check for existing Google Sign In account, if the user is already signed in
-        // the GoogleSignInAccount will be non-null.
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         updateUI(account);
-        // [END on_start_sign_in]
     }
 
 
