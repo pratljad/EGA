@@ -9,11 +9,13 @@
     <string name="btn_settings">SETTINGS</string>
     <string name="btn_backup">DO BACKUP</string>
     <string name="btn_backToCalendar">TO CALENDAR</string>
+    <string name="btn_login_google">Login WIth Google</string>
+    <string name="txt_signdIn">Erfolgreich Angemeldet</string>
+
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">Wrong!</string>
     <string name="action_google_login">Login with Google</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."

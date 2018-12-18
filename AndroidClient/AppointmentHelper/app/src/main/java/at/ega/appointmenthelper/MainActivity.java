@@ -33,11 +33,24 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void init(){
+
+
+
+
         loadButtons();
         loadCharts();
     }
 
     private void loadButtons(){
+        Button btn_demo = (Button) findViewById(R.id.btn_demoSwitch);
+        btn_demo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LoginGoogleActivity.class));
+            }
+        });
+
+
         Button btn_changeToStatistics = (Button) findViewById(R.id.btn_statistics);
         btn_changeToStatistics.setOnClickListener(new View.OnClickListener() {
             @Override
