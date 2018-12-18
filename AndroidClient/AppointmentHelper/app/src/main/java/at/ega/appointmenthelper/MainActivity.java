@@ -27,13 +27,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        // Set up the login form.
         init();
-
-
-
     }
+
+
     private void init(){
+        loadButtons();
+        loadCharts();
+    }
+
+    private void loadButtons(){
         Button btn_changeToStatistics = (Button) findViewById(R.id.btn_statistics);
         btn_changeToStatistics.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
             }
         });
-
+    }
+    private void loadCharts(){
         LineChart chart = (LineChart) findViewById(R.id.chart);
         chart.getXAxis().setLabelCount(11,  true);
         chart.getXAxis().setAxisMinimum(0);
@@ -82,8 +86,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Entry> entries = new ArrayList<Entry>();
 
         for (ExampleClass data : dataObjects) {
-            //for(int i=0; i<=10; i++){
-
             // turn your data into Entry objects
             entries.add(new Entry(data.getValueX(), data.getValueY()));
         }
@@ -97,5 +99,4 @@ public class MainActivity extends AppCompatActivity {
         chart.setData(lineData);
         chart.invalidate(); // refresh
     }
-
 }
