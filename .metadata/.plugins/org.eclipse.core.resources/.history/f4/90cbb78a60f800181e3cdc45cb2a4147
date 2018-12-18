@@ -1,0 +1,9 @@
+package api;
+
+@XmlRootElement(name = "eventlist")
+public class EventList {
+  @XmlElement(name = "param")
+  private String param;
+  @XmlElement(name = "entities")
+  private List<MyEntity> entities;
+}

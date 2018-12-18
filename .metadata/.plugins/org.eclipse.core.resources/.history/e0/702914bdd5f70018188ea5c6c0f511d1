@@ -1,0 +1,5 @@
+package ega.api;
+
+public class Root {
+
+}

@@ -1,0 +1,30 @@
+package api;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+@Path("/backup")
+public class Backup {
+	  @GET
+	  @Path("/{name}")
+	  @Produces({ MediaType.TEXT_HTML, MediaType.APPLICATION_JSON })
+	  public Response getHTML(@PathParam("name") String name) {    // WORKS
+	  //public Person getHTML(@PathParam("name") String name) {         // FAILS
+			Person p = new Person();
+			p.setName("Windel Willy heisst " +name);
+			p.setSsnr("8");
+		    // String outMsg = "Salve " + p + "!";
+		    return p;                                               // FAILS
+		    // return Response.status(200).entity(outMsg).build();  // WORKS for Response as return value !!!!
+	  }
+
+	  
+	  // @GET
+	  // @Path("/{name}")
+	  // public Response getMessage(@PathParam("name") String name)
+	  // {
+	  //  String outMsg = "Salve " + name + "!";
+	  //  return Response.status(200).entity(outMsg).build();
+	  // }
+	
+}

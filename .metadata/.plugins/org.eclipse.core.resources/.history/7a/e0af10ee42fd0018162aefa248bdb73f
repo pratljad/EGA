@@ -1,0 +1,10 @@
+package db;
+
+import java.util.List;
+
+public interface IDAL<T> {
+
+	List<T> Get();
+	
+	
+}

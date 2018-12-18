@@ -1,0 +1,10 @@
+package api;
+
+import javax.ws.*;
+import javax.ws.rs.Path;
+
+
+@Path('/backup')
+public class Backup {
+
+}

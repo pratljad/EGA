@@ -1,0 +1,8 @@
+package domains;
+
+public class EGAUser {
+	public int 				Id 				= -1;
+	public String			Email 			= "";
+	public List<Calendar>	MyCalendars		= null;
+	
+}

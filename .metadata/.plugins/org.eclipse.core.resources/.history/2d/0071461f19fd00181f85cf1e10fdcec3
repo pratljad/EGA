@@ -1,0 +1,36 @@
+package api;
+
+import java.sql.*;
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import db.ConnectionFactory;
+
+@Path("/backup")
+public class Backup {
+	
+	private Connection 		Con 		= null;
+	private String			ConType 	= "mysql";
+	
+	public Backup() {
+		Con = ConnectionFactory.instance.get(ConType);
+	}
+	
+	
+	  @GET
+	  @Path("/{calendarId}")
+	  @Produces({ MediaType.TEXT_HTML, MediaType.APPLICATION_JSON })
+	  public Response getJSON(@PathParam("calendarId") int calendarId) {  
+		  //get from db
+		  return Response.status(200).entity("sick").build(); 
+	  }
+	  
+	  @POST 
+	  @Path("/")
+	  @Produces(MediaType.APPLICATION_JSON)
+	  @Consumes(MediaType.APPLICATION_JSON)
+	  public Response postJSON(EventList events) {   
+		  //parse and safe to db
+			return Response.status(200).entity("sick").build();  
+	  }
+}

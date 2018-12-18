@@ -1,0 +1,14 @@
+package db;
+
+public class EventDAL {
+	
+	public static EventDAL Instance = new EventDAL();
+	
+	public EventDAL() {
+		
+	}
+	
+	
+	
+
+}

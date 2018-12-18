@@ -1,0 +1,7 @@
+package ega.api;
+
+
+@Path("/ftocservice")
+public class Root {
+
+}

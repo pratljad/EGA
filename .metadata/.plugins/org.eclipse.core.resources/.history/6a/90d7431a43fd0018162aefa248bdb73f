@@ -1,0 +1,37 @@
+package db;
+
+import java.util.List;
+
+public class EGAUserDAL implements IDAL{
+
+	@Override
+	public List Get() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object Get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void Delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Object Update(Object item) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object Insert(Object item) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

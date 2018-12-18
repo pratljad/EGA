@@ -1,0 +1,20 @@
+package db;
+
+import domains.Event;
+
+public class EventDAL {
+	
+	public static EventDAL Instance = new EventDAL();
+	
+	public EventDAL() {
+		
+	}
+	
+	
+	public Event Get() {
+		
+	}
+	
+	
+
+}

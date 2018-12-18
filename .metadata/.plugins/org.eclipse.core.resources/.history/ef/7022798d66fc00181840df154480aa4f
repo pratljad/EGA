@@ -1,0 +1,9 @@
+package domains;
+
+public class Event {
+
+	public String Title = "";
+	public int Id = -1;
+	
+	
+}

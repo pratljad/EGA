@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
+    <fullyQualifiedTypeName name="domains.Event"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="domains.EGAUser"/>
+    <fullyQualifiedTypeName name="domains.Calendar"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,15 @@
+127.0.0.1 - - [11/Dec/2018:13:28:47 +0100] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:28:48 +0100] "GET /At.Htl.EGA/WEB-INF/classes/api/Backup.java HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:29:03 +0100] "GET /At.Htl.EGA/Backup/ HTTP/1.1" 404 1099
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:29:09 +0100] "GET /At.Htl.EGA/api/Backup/ HTTP/1.1" 404 1107
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:29:18 +0100] "GET /At.Htl.EGA/api/Backup HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:29:20 +0100] "GET /At.Htl.EGA/api/Backup HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:39:39 +0100] "GET /At.Htl.EGA/Backup HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:39:39 +0100] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:39:42 +0100] "GET /At.Htl.EGA/api/Backup HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:39:48 +0100] "GET /At.Htl.EGA/ HTTP/1.1" 404 1088
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:40:11 +0100] "GET /At.Htl.EGA/ HTTP/1.1" 404 1088
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:40:11 +0100] "GET /At.Htl.EGA/ HTTP/1.1" 404 1088
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:41:40 +0100] "GET /11_Oelschuetzer_Servlet/CustomServlet HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:41:48 +0100] "GET /11_Oelschuetzer_Servlet/CustomServlet HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [11/Dec/2018:13:41:52 +0100] "GET /11_Oelschuetzer_Servlet/CustomServlet/ HTTP/1.1" 404 1119

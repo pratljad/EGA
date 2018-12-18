@@ -1,0 +1,8 @@
+package db;
+
+public interface IDAL<T> {
+
+	List<T> Get()
+	
+	
+}

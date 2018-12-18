@@ -1,0 +1,24 @@
+package db;
+
+import java.util.List;
+
+import domains.Event;
+
+public class EventDAL implements IDAL<Event> {
+	
+	public static EventDAL Instance = new EventDAL();
+	
+	public EventDAL() {
+		
+	}
+	
+	
+	
+	
+	public List<Event> Get() {
+		
+	}
+	
+	
+
+}
