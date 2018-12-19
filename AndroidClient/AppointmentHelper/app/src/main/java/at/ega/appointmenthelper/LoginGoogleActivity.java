@@ -76,22 +76,22 @@ public class LoginGoogleActivity extends AppCompatActivity implements
             .addOnCompleteListener(this, new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
-                    // [START_EXCLUDE]
-                    updateUI(null);
-                    // [END_EXCLUDE]
+                // [START_EXCLUDE]
+                updateUI(null);
+                // [END_EXCLUDE]
                 }
             });
     }
     private void revokeAccess() {
         mGoogleSignInClient.revokeAccess()
-                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        // [START_EXCLUDE]
-                        updateUI(null);
-                        // [END_EXCLUDE]
-                    }
-                });
+            .addOnCompleteListener(this, new OnCompleteListener<Void>() {
+                @Override
+                public void onComplete(@NonNull Task<Void> task) {
+                    // [START_EXCLUDE]
+                    updateUI(null);
+                    // [END_EXCLUDE]
+                }
+            });
     }
 
     @Override
