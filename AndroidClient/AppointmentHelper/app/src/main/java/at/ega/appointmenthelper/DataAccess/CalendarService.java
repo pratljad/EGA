@@ -47,14 +47,14 @@ public class CalendarService {
         }
         catch (Exception ex) {
             s = null;
-            Log.e("CalendarService", "Failed to instanciate CalendarService.", ex);
+            Log.e("CalendarService", "Failed to init CalendarService.", ex);
         }
 
         return s;
     }
 
     private void Init() throws IOException, GeneralSecurityException {
-        final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
+        final NetHttpTransport HTTP_TRANSPORT = new com.google.api.client.http.javanet.NetHttpTransport();
         _Service = new Calendar.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
                 .setApplicationName(APPLICATION_NAME)
                 .build();

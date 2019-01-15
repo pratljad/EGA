@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3878e0"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:id="@+id/titleInfo"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="Event"
+        android:textSize="20dp"
+        android:paddingTop="4dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/Information"
+        android:layout_below="@+id/txtInformation"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:typeface="sans" />
+    <LinearLayout
+        android:id="@+id/linearLayoutBtn"
+        android:layout_below="@+id/txtInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="Ok"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+</RelativeLayout>
