@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements OnChartValueSelec
         chart.getXAxis().setPosition(XAxis.XAxisPosition.BOTTOM);
         chart.getXAxis().setValueFormatter(new DateXAxisConverter());
         chart.getXAxis().setPosition(XAxis.XAxisPosition.BOTTOM);
-
+//try get data next activity - ui, etc
 
         /*try {
             Iterable<CalendarListEntry> events = CalendarDataAccess.Instance.Get();
@@ -207,5 +207,7 @@ public class MainActivity extends AppCompatActivity implements OnChartValueSelec
 
     @Override
     public void onNothingSelected() {
+        
     }
 }
+
